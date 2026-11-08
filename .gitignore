@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.env
+.DS_Store
+.ipynb_checkpoints/
+.claude/
+
+# Downloaded / generated artifacts
+benchmark/data/
+benchmark/results/
+benchmark/collection/source_data/**/*
+!benchmark/collection/source_data/**/
+!benchmark/collection/source_data/**/*.py
+prism_monitor/checkpoints/
+prism_monitor/dataset/
+prism_monitor/cache/
+prism_monitor/results/
+wandb/
+*.pt
+*.pkl
+*.safetensors
